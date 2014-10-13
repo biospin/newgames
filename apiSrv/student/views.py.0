@@ -1,0 +1,10 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+
+def student_view(request) :
+    return HttpResponse("hello")
+
+def student_detail_view(request, id) :
+    return HttpResponse("hello")

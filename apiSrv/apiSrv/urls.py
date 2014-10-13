@@ -13,6 +13,6 @@ urlpatterns = patterns('',
 
 	
     url(r'^student/$', student_view),
-    url(r'^student/(?P<id>\d+)/$', student_detail),
+    url(r'^student/(?P<id>\d+)/$', student_detail_view),
 
 )
